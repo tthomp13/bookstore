@@ -28,14 +28,13 @@ gem 'turbolinks'
 gem 'bootstrap-sass', '~> 3.1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-
-
-
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+	gem 'sdoc', require: false
 end
 
+gem 'kaminari'
+gem 'kaminari-bootstrap', '~> 3.0.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
